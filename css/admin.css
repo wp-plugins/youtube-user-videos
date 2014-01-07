@@ -1,0 +1,13 @@
+/* This stylesheet is used to style the admin option form of the widget. */
+
+.youtube-user-videos-admin label, .youtube-user-videos-admin input, .youtube-user-videos-admin select, .youtube-user-videos-admin button{
+	display:block;
+}
+
+.youtube-user-videos-admin label small{
+	display:block;
+}
+
+.youtube-user-videos-admin input{
+	width:80%;
+}
