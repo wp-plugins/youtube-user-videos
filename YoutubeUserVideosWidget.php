@@ -231,7 +231,7 @@ class YoutubeUserVideosWidget extends WP_Widget{
 	 * @since    1.0.0
 	 */
 	public function register_widget_styles() {
-		wp_enqueue_style("prettyPhoto", plugins_url("js/prettyPhoto/css/prettyPhoto.css", __FILE__), array(),
+		wp_enqueue_style("prettyPhoto", plugins_url("css/prettyPhoto.css", __FILE__), array(),
 			$this->version);
 	}
 
@@ -241,7 +241,7 @@ class YoutubeUserVideosWidget extends WP_Widget{
 	 * @since    1.0.0
 	 */
 	public function register_widget_scripts() {
-		wp_enqueue_script("prettyPhoto", plugins_url("js/prettyPhoto/js/jquery.prettyPhoto.js", __FILE__), array("jquery"),
+		wp_enqueue_script("prettyPhoto", plugins_url("js/jquery.prettyPhoto.js", __FILE__), array("jquery"),
 			$this->version, true);
 		wp_enqueue_script($this->plugin_slug . "-widget-script", plugins_url("js/youtube-user-videos.js", __FILE__), array("prettyPhoto"),
 			$this->version, true);

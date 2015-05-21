@@ -14,7 +14,7 @@
  * Plugin Name: Youtube User Videos
  * Plugin URI:  http://lostwebdesigns.com
  * Description: Retrieve videos from a user
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Guillaume Kanoufi
  * Author URI:  http://lostwebdesigns.com
  * Text Domain: youtube-user-videos-locale
